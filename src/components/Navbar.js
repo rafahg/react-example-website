@@ -30,7 +30,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/react-example-website/' className='navbar-logo' onClick={closeMobileMenu}>
             TRAVEL <i className="fab fa-typo3"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>

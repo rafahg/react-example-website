@@ -6,7 +6,7 @@ import './CentralSection.css';
 function CentralSection() {
   return (
     <div className='central-container'>
-      <video src='/videos/video-2.mp4' autoPlay loop muted/>
+      <video src='/react-example-website/videos/video-1.mp4' autoPlay loop muted/>
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="central-btns">

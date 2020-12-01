@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './Button'
 import './Footer.css'
+import './Button.css'
 import { Link } from 'react-router-dom'
 
 function Footer() {
@@ -13,10 +14,10 @@ function Footer() {
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
         </p>
-        <div className="input-areas">
+        <div className="input-zone">
           <form>
-            <input type="email" name="email" placeholder='Your Email'/>
-            <Button style="btn--outline">Subscribe</Button>
+            <input className='footer-input' type="email" name="email" placeholder='Your Email'/>
+            <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
       </section>
@@ -41,15 +42,23 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to='/'className="social-logo">
+            <Link to='/react-example-website'className="social-logo">
               TRAVEL <i className="fab fa-typo3"></i>
             </Link>
           </div>
           <small className="website-rights">TRAVEL 2020</small>
           <div className="social-icons">
             <Link className="social-icon-link facebook"
-            to='/' target='_blanck' aria-label='Facebook'>
+            to='/react-example-website' target='_blanck' aria-label='Facebook'>
               <i className="fab fa-facebook-f"></i>
+            </Link>
+            <Link className="social-icon-link instagram"
+            to='/react-example-website' target='_blanck' aria-label='Facebook'>
+              <i className="fab fa-instagram"></i>
+            </Link>
+            <Link className="social-icon-link Linked-in"
+            to='/react-example-website' target='_blanck' aria-label='Facebook'>
+              <i className="fab fa-linkedin-in"></i>
             </Link>
           </div>
         </div>

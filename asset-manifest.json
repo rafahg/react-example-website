@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-example-website/static/css/main.f9a4b40f.chunk.css",
+    "main.css": "/react-example-website/static/css/main.5d2b2458.chunk.css",
     "main.js": "/react-example-website/static/js/main.73881df7.chunk.js",
     "main.js.map": "/react-example-website/static/js/main.73881df7.chunk.js.map",
     "runtime-main.js": "/react-example-website/static/js/runtime-main.6ef5441e.js",
@@ -8,14 +8,14 @@
     "static/js/2.2c36ee52.chunk.js": "/react-example-website/static/js/2.2c36ee52.chunk.js",
     "static/js/2.2c36ee52.chunk.js.map": "/react-example-website/static/js/2.2c36ee52.chunk.js.map",
     "index.html": "/react-example-website/index.html",
-    "static/css/main.f9a4b40f.chunk.css.map": "/react-example-website/static/css/main.f9a4b40f.chunk.css.map",
+    "static/css/main.5d2b2458.chunk.css.map": "/react-example-website/static/css/main.5d2b2458.chunk.css.map",
     "static/js/2.2c36ee52.chunk.js.LICENSE.txt": "/react-example-website/static/js/2.2c36ee52.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react-example-website/static/media/img-8.fabdf94d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6ef5441e.js",
     "static/js/2.2c36ee52.chunk.js",
-    "static/css/main.f9a4b40f.chunk.css",
+    "static/css/main.5d2b2458.chunk.css",
     "static/js/main.73881df7.chunk.js"
   ]
 }

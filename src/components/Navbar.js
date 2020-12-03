@@ -4,7 +4,6 @@ import './Navbar.css';
 import { Button } from './Button';
 
 
-
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -30,35 +29,44 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to='/react-example-website/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRAVEL <i className="fab fa-typo3"></i>
-          </Link>
+          <img className='navbar-logo' src={'/logo/logo.png'} onClick={closeMobileMenu}>
+
+          </img>
+          {/* <Link to='/react-example-website/' className='navbar-logo' onClick={closeMobileMenu}>
+            <img src={('./logo-transparent-bg.png')} />
+            {/* <i className="fab fa-typo3"></i> */}
+          {/* </Link> */}
           <div className="menu-icon" onClick={handleClick}>
             <i className = {click ? 'fas fa-times' : 'fas fa-bars'}/>
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/react-example-website/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                Bio
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                Services
+                Recursos
               </Link>
             </li>
+            {/* <li className='nav-item'>
+              <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
+                Blog
+              </Link>
+            </li> */}
             <li className='nav-item'>
               <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                Products
+                Contacto
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Sign-up
+                Contacto
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'>Acceso Alumnos</Button>}
         </div>
       </nav>
     </>

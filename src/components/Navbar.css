@@ -1,7 +1,7 @@
 .navbar {
   /* background: transparent; */
   /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-  background-color: #409eea;
+  background-color: 0;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -9,7 +9,12 @@
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  z-index: 999;
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  /* z-index: 2; */
+  /* z-index: 999; */
 }
 
 .navbar-container {
@@ -33,7 +38,9 @@
 }
 
 .navbar-logo .logo {
-  height: 60px;
+  /* height: 60px; */
+  width: 27%;
+  height: 27%;
 }
 
 /* .fa-typo3 {
@@ -100,7 +107,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #1ba00b;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -125,6 +132,7 @@
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
+    margin-top: 5px;
   }
 
   .menu-icon {

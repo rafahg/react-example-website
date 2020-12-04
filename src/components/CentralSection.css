@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Thinkoutside;
+  src: url("thinkoutside.ttf");
+}
+
 /* video {
   object-fit: cover;
   width: 100%;
@@ -26,6 +31,8 @@
   color: white;
   font-size: 50px;
   margin-top: 150px;
+  font-family: Thinkoutside, sans-serif;
+  color: #87d6ae;
 }
 
 .central-container > p {
@@ -45,6 +52,12 @@
 
 .central-btns .btn {
   margin: 6px;
+  border-radius: 30px;
+  background-color: #87d6ae;
+  border-color: #87d6ae;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .fa-play-circle {
@@ -59,13 +72,18 @@
 }
 
 @media screen and (max-width: 768px) {
+  .central-contaitner {
+    height: 50vh;
+  }
+
   .central-container > h1 {
     font-size: 40px;
-    margin-top: 150px;
+    margin-top: 320px;
   }
 
   .central-container > p {
     font-size: 18px;
+    max-width: 400px;
   }
 
   .btn-mobile {

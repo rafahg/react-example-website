@@ -30,7 +30,7 @@
 .central-container > h1 {
   color: white;
   font-size: 50px;
-  margin-top: 150px;
+  margin-top: 350px;
   font-family: Thinkoutside, sans-serif;
   color: #87d6ae;
 }
@@ -68,6 +68,11 @@
   .central-container > h1 {
     font-size: 50px;
     margin-top: 150px;
+  }
+
+  .central-container > h1 {
+    font-size: 40px;
+    margin-top: 320px;
   }
 }
 

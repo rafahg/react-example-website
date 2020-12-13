@@ -47,7 +47,7 @@ function Footer() {
           {/* <Link to='/react-example-website/' className='navbar-logo' onClick={closeMobileMenu}>
             <img src={Logo} className='logo'/>
            </Link> */}
-            <Link to='/react-example-website'className="social-logo">
+            <Link to='/react-example-website'className="logo">
             <img src={Logo} className='logo'/>
             </Link>
           </div>

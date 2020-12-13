@@ -112,13 +112,6 @@
   color: #b1b1b1;
 }
 
-<<<<<<< HEAD
-=======
-.social-logo > .logo {
-  height: 40px;
-}
-
->>>>>>> cfcd50f45b5bef5c565ff5cd3958a4347e3f1bb2
 .social-icon-link {
   color: white;
   font-size: 24px;
@@ -135,7 +128,7 @@
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin: 30px;
 }
 
 .social-icons {
@@ -154,8 +147,22 @@
   font-size: 2rem;
   display: flex;
   align-self: center;
-  margin-botton: 16px;
+  margin-botton: 40px;
 }
+
+.footer-logo {
+ justify-self: start;
+ margin-left: 20px;
+ cursor: pointer;
+ display: flex;
+ align-self: center;
+}
+
+.footer-logo .logo {
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
 
 .website-rights {
   color: white;
@@ -178,6 +185,19 @@
   .social-media-wrap {
     flex-direction: column;
   }
+
+  .social-media-wrap .logo {
+    margin-right: 2.5rem;
+  }
+
+  .social-media-wrap .website-rights {
+    margin-right: 2.5rem;
+  }
+
+  .social-media-wrap .social-icons {
+    margin-right: 2.5rem;
+  }
+
 
   .social-icons {
     width: 80px;

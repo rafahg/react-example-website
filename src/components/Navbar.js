@@ -40,7 +40,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/react-example-website/' className='nav-links' onClick={closeMobileMenu}>
-                Bio
+                Inicio
               </Link>
             </li>
             <li className='nav-item'>

@@ -11,7 +11,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='/react-example-website/images/ciencias.jpg'
-              text='Se acabo el miedo a los numeros!'
+              text='Nos divertimos haciendo projectos a la vez que aprendemos'
               label='Ciencias'
               path='/services'
             />

@@ -32,11 +32,12 @@
   font-size: 50px;
   margin-top: 350px;
   font-family: Thinkoutside, sans-serif;
+  font-weight: 300;
   color: #87d6ae;
 }
 
 .central-container > p {
-  margin-top: 8px;
+  margin-top: 5px;
   color: white;
   font-size: 20px;
   font-family: "Nunito", sans-serif;
@@ -56,8 +57,9 @@
   background-color: #87d6ae;
   border-color: #87d6ae;
   color: white;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
 }
 
 .fa-play-circle {
@@ -78,15 +80,17 @@
 
 @media screen and (max-width: 768px) {
   .central-contaitner {
-    height: 50vh;
+    height: 20vh;
+    width: 100%;
   }
 
   .central-container > h1 {
     font-size: 40px;
-    margin-top: 320px;
+    margin-top: 340px;
   }
 
   .central-container > p {
+    margin-top: 5px;
     font-size: 18px;
     max-width: 400px;
   }

@@ -10,8 +10,8 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/react-example-website/images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              src='/react-example-website/images/ciencias.jpg'
+              text='Nos divertimos haciendo projectos a la vez que aprendemos'
               label='Ciencias'
               path='/services'
             />

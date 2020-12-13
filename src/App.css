@@ -1,8 +1,13 @@
+/* @font-face {
+  font-family: Thinkoutside;
+  src: url("thinkoutside.ttf");
+} */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .home,
@@ -17,7 +22,7 @@
 }
 
 .services {
-  background-image: url('./images/img-2.jpg');
+  background-image: url("./images/Pink-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,8 +30,13 @@
   font-size: 100px;
 }
 
+.services > h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+}
+
 .products {
-  background-image: url('./images/img-1.jpg');
+  background-image: url("./images/img-1.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -35,7 +45,7 @@
 }
 
 .sign-up {
-  background-image: url('./images/img-8.jpg');
+  background-image: url("./images/img-8.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

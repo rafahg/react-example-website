@@ -11,33 +11,37 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='/react-example-website/images/ciencias.jpg'
+<<<<<<< HEAD
               text='Nos divertimos haciendo projectos a la vez que aprendemos'
+=======
+              text='Se acabo el miedo a los numeros!'
+>>>>>>> cfcd50f45b5bef5c565ff5cd3958a4347e3f1bb2
               label='Ciencias'
               path='/services'
             />
             <CardItem
-              src='/react-example-website/images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              src='/react-example-website/images/arte.jpeg'
+              text='Actividades para todos!'
               label='Arte'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='/react-example-website/images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              src='/react-example-website/images/teatro.jpeg'
+              text='Imaginacion al poder!'
               label='Teatro'
               path='/services'
             />
             <CardItem
-              src='/react-example-website/images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              src='/react-example-website/images/ingles.jpg'
+              text='Your children will help you understand your favourites shows in Neflix!!'
               label='Inglés'
               path='/products'
             />
             <CardItem
-              src='/react-example-website/images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              src='/react-example-website/images/lengua.jpeg'
+              text='Para entenderlo todo, hay que empezar por aqui!.'
               label='Lengua'
               path='/sign-up'
             />

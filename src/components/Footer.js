@@ -3,39 +3,38 @@ import { Button } from './Button'
 import './Footer.css'
 import './Button.css'
 import { Link } from 'react-router-dom'
+import Logo from './logo.png'
 
 function Footer() {
   return (
     <div className='footer-container'>
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Join our great Newsletter
+          Unete al boletin semanal!
         </p>
         <p className="footer-subscription-text">
-          You can unsubscribe at any time.
+          Date de baja cuando quieras.
         </p>
         <div className="input-zone">
           <form>
             <input className='footer-input' type="email" name="email" placeholder='Your Email'/>
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Subscribete</Button>
           </form>
         </div>
       </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How It works</Link>
-            <Link to='/sign-up'>Testimonials</Link>
-            <Link to='/sign-up'>Careers</Link>
-            <Link to='/sign-up'>Investors</Link>
+            <h2>Sobre mi</h2>
+            <Link to='/sign-up'>Como trabajo.</Link>
+            <Link to='/sign-up'>Que opinan los Padres</Link>
+            <Link to='/sign-up'>Que opinan los alumnos</Link>
           </div>
           <div className="footer-link-items">
-            <h2>Discover</h2>
-            <Link to='/sign-up'>Best-Places</Link>
-            <Link to='/sign-up'>Going with your date?</Link>
-            <Link to='/sign-up'>Top 10</Link>
-            <Link to='/sign-up'>Most voted</Link>
+            <h2>Descubre</h2>
+            <Link to='/sign-up'>Recursos</Link>
+            <Link to='/sign-up'>Links interesantes</Link>
+            <Link to='/sign-up'>Tests</Link>
           </div>
         </div>
       </div>
@@ -43,10 +42,10 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to='/react-example-website'className="social-logo">
-              TRAVEL <i className="fab fa-typo3"></i>
+            <img src={Logo} className='logo'/>
             </Link>
           </div>
-          <small className="website-rights">TRAVEL 2020</small>
+          <small className="website-rights">Belen Iglesias, 2020</small>
           <div className="social-icons">
             <Link className="social-icon-link facebook"
             to='/react-example-website' target='_blanck' aria-label='Facebook'>

@@ -92,6 +92,9 @@
   color: #b1b1b1
 }
 
+.social-logo > .logo {
+  height: 40px;
+}
 
 .social-icon-link {
   color: white;

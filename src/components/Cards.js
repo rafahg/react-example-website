@@ -13,13 +13,13 @@ function Cards() {
               src='/react-example-website/images/ciencias.jpg'
               text='Nos divertimos haciendo projectos a la vez que aprendemos'
               label='Ciencias'
-              path='/services'
+              path='/sign-up'
             />
             <CardItem
               src='/react-example-website/images/arte.jpeg'
               text='Actividades para todos!'
               label='Arte'
-              path='/services'
+              path='/sign-up'
             />
           </ul>
           <ul className='cards__items'>
@@ -27,13 +27,13 @@ function Cards() {
               src='/react-example-website/images/teatro.jpeg'
               text='Imaginacion al poder!'
               label='Teatro'
-              path='/services'
+              path='/sign-up'
             />
             <CardItem
               src='/react-example-website/images/ingles.jpg'
               text='Your children will help you understand your favourites shows in Neflix!!'
               label='Inglés'
-              path='/products'
+              path='/sign-up'
             />
             <CardItem
               src='/react-example-website/images/lengua.jpeg'

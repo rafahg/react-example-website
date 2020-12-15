@@ -24,6 +24,7 @@
 
 .services {
   background-image: url("./images/Pink-bg.png");
+  height: 100vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,7 +32,7 @@
 }
 
 .recursos{
-  font-family: 'sacramento', serif;
+  font-family: 'nunito', serif;
   font-size: 3.5rem;
   width: 40rem;
   padding-right: 2.5rem;
